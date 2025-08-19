@@ -1,4 +1,4 @@
-<img width="1612" height="873" alt="image" src="https://github.com/user-attachments/assets/55685f5d-98ca-4408-945d-3ae66dba0517" /># Exp-1-Integrate-and-program-sensors-using-an-embedded-system-in-an-electric-vehicle-simulation
+# Exp-1-Integrate-and-program-sensors-using-an-embedded-system-in-an-electric-vehicle-simulation
 
 ## AIM
 To integrate and program temperature and accelerometer sensors in an embedded system for an electric vehicle (EV) simulation. The system monitors battery temperature and vehicle acceleration in real-time.
@@ -36,7 +36,6 @@ To integrate and program temperature and accelerometer sensors in an embedded sy
  
 ## MATLAB CODE
 clear; clc; close all;
-
 %% Simulation Parameters
 time = linspace(0, 10, 100); % Simulate for 10 seconds with 100 samples
 battery_temp = 25 + 5*sin(0.5*time); % Simulated temperature variation (25°C avg)
